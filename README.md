@@ -22,7 +22,7 @@ The keyword “Set_typical_facts:” allows to model in the following row the ty
 Set_typical_facts:\
 Typical(Bird),Fly,0.80 Typical(Penguin),Not(Fly),0.90 Typical(And(Bird_Black)),Fly,0.80
 ### Add_members_to_class:
-The keyword “Add_members_to_class:” allows to specify in the following row to which class an individual belongs. It’s necessary to separate every couple “individual_name;class_name”.
+The keyword “Add_members_to_class:” allows to specify in the following row to which class an individual belongs. It’s necessary to separate with a space every couple “individual_name;class_name”.
 ##### Example
 Add_members_to_class:\
 Tweety;Bird Tux;Penguin Tux;Not(Fly)
