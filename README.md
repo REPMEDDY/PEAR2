@@ -17,7 +17,7 @@ They keyword “Set_as_sub_class:” allows to specify that in the following row
 Set_as_sub_class:\
 Penguin,Bird Dog,Mammal
 ### Set_typical_facts:
-The keyword “Set_typical_facts:” allows to model in the following row the typical properties of a certain class, in other words, the so called typical facts. It’s necessary to separate every typical fact with a space. A typical fact follows this syntax: Typical(C),D,p or Typical(And(C_E)),F,p.
+The keyword “Set_typical_facts:” allows to model in the following row the typical properties of a certain class, in other words, the so called typical facts. For instance, it’s possible to say that the typically penguins do not fly with a certain probability p. It’s necessary to separate every typical fact with a space. A typical fact follows this syntax: Typical(C),D,p or Typical(And(C_E)),F,p.
 ##### Example
 Set_typical_facts:\
 Typical(Bird),Fly,0.80 Typical(Penguin),Not(Fly),0.90 Typical(And(Bird_Black)),Fly,0.80
