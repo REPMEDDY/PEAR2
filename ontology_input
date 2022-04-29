@@ -1,0 +1,8 @@
+Classes:
+CardPlayer PokemonCardPlayer YoungPerson Student InstagramUser Not(YoungPerson)
+Set_as_sub_class:
+PokemonCardPlayer,CardPlayer
+Set_typical_facts:
+Typical(CardPlayer),Not(YoungPerson),0.85 Typical(PokemonCardPlayer),YoungPerson,0.7 Typical(Student),YoungPerson,0.6 Typical(Student),InstagramUser,0.8
+Add_members_to_class:
+John;PokemonCardPlayer Thomas;Student Richard;CardPlayer Richard;YoungPerson
